@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lucas Santos | Analista de Dados</title>
+<meta name="description" content="Portfólio de Lucas Santos: projetos de análise de dados, Python, SQL, Power BI e Machine Learning.">
+<style>
+:root{
+  --bg:#f7f8fa; --card:#ffffff; --text:#1c2230; --muted:#5b6475;
+  --accent:#2563eb; --border:#e3e6ec;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#0f131a; --card:#171c26; --text:#e8ecf3; --muted:#9aa4b5; --accent:#60a5fa; --border:#262d3b;}
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:960px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:0;background:var(--bg);border-bottom:1px solid var(--border);z-index:10}
+nav{display:flex;justify-content:space-between;align-items:center;padding:14px 0}
+nav .logo{font-weight:700}
+nav ul{display:flex;gap:18px;list-style:none;font-size:.95rem}
+section{padding:64px 0}
+h2{font-size:1.6rem;margin-bottom:24px}
+.hero{padding:90px 0 60px}
+.hero h1{font-size:clamp(2rem,5vw,3rem);line-height:1.15}
+.hero p{color:var(--muted);max-width:620px;margin:16px 0 24px;font-size:1.1rem}
+.btn{display:inline-block;padding:10px 20px;border-radius:8px;border:1px solid var(--accent);font-weight:600;margin-right:10px}
+.btn.primary{background:var(--accent);color:#fff}
+.btn.primary:hover{text-decoration:none;opacity:.9}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:18px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:22px}
+.card h3{font-size:1.1rem;margin-bottom:8px}
+.card p{color:var(--muted);font-size:.95rem;margin-bottom:12px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.tag{font-size:.78rem;padding:3px 10px;border-radius:99px;border:1px solid var(--border);color:var(--muted)}
+.skills{display:flex;flex-wrap:wrap;gap:10px}
+.skills span{background:var(--card);border:1px solid var(--border);padding:8px 16px;border-radius:8px;font-weight:500}
+.about p{color:var(--muted);max-width:700px;margin-bottom:12px}
+footer{border-top:1px solid var(--border);padding:28px 0;text-align:center;color:var(--muted);font-size:.9rem}
+@media(max-width:560px){nav ul{gap:12px;font-size:.85rem}}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <nav>
+      <span class="logo">Lucas Santos</span>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero">
+    <h1>Olá, eu sou o Lucas.<br>Transformo dados em decisões.</h1>
+    <p>Cientista de Dados formado, cursando Inteligência Artificial. Trabalho com Python, SQL, Power BI e Machine Learning para extrair insights e construir soluções orientadas a dados.</p>
+    <a class="btn primary" href="#projetos">Ver projetos</a>
+    <a class="btn" href="#contato">Entrar em contato</a>
+  </section>
+
+  <section id="sobre" class="about">
+    <h2>Sobre mim</h2>
+    <p>Sou formado em Ciência de Dados pela UniCesumar e estou fazendo uma segunda graduação em Inteligência Artificial para aprofundar minha atuação na área de dados.</p>
+    <p>Aplico o que aprendo em projetos pessoais e acadêmicos, com foco em análise exploratória, dashboards e modelos preditivos. Antes de dados, atuei em atendimento ao cliente, estoque e segurança, o que me deu visão prática de processos e bom contato com o negócio.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+      <span>Python</span>
+      <span>SQL</span>
+      <span>Power BI</span>
+      <span>Machine Learning</span>
+      <span>Pandas</span>
+      <span>Scikit-learn</span>
+      <span>Excel</span>
+      <span>Git/GitHub</span>
+    </div>
+  </section>
+
+  <section id="projetos">
+    <h2>Projetos</h2>
+    <div class="grid">
+
+      <article class="card">
+        <h3>Sistema de Recomendação Personalizada</h3>
+        <p>Projeto acadêmico em equipe. Sistema de recomendação construído com Python e técnicas de Machine Learning. Descreva aqui o problema, a base de dados e o resultado alcançado.</p>
+        <div class="tags"><span class="tag">Python</span><span class="tag">Machine Learning</span></div>
+        <a href="https://github.com/SEU-USUARIO/NOME-DO-REPO">Ver no GitHub →</a>
+      </article>
+
+      <article class="card">
+        <h3>Dashboard de Vendas (Power BI)</h3>
+        <p>Painel interativo com KPIs, evolução mensal e análise por categoria. Explique qual pergunta de negócio o dashboard responde.</p>
+        <div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span></div>
+        <a href="https://github.com/SEU-USUARIO/NOME-DO-REPO">Ver projeto →</a>
+      </article>
+
+      <article class="card">
+        <h3>Análise Exploratória com SQL e Python</h3>
+        <p>Consultas SQL para extrair dados e análise exploratória em Python com gráficos e conclusões. Cite a fonte dos dados e os principais insights.</p>
+        <div class="tags"><span class="tag">SQL</span><span class="tag">Pandas</span><span class="tag">Matplotlib</span></div>
+        <a href="https://github.com/SEU-USUARIO/NOME-DO-REPO">Ver no GitHub →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p style="color:var(--muted);margin-bottom:16px">Vamos conversar sobre oportunidades e projetos.</p>
+    <a class="btn primary" href="mailto:seuemail@exemplo.com">Enviar e-mail</a>
+    <a class="btn" href="https://www.linkedin.com/in/SEU-PERFIL" target="_blank" rel="noopener">LinkedIn</a>
+    <a class="btn" href="https://github.com/SEU-USUARIO" target="_blank" rel="noopener">GitHub</a>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">© 2026 Lucas Antonio Rocha Santos</div>
+</footer>
+
+</body>
+</html>
